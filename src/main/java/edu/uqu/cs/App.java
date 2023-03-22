@@ -4,6 +4,8 @@ package edu.uqu.cs;
  * CS 1312
  */
 
+import javax.lang.model.util.ElementScanner14;
+
 /*
 * Make sure to complete and submit your lab
 */
@@ -24,7 +26,28 @@ public class App{
 *        TweetleBeetlePoodle 13 Tweetle 15 TweetleBeetle 17 TweetlePoodle 19 TweetleBeetle 
 */
 
-/**
+public static void twisters(){
+    for(int i=1;i<20;i++)
+{
+    if(i%2==0||i%4==0||i%6==0){
+if(i%2==0)
+{
+    System.out.print("Tweetle");
+}
+if(i%4==0)
+{
+    System.out.print("Beetle");
+}
+if(i%6==0)
+{
+    System.out.print("Poodle");
+}else
+{
+    System.out.print(" "+i" ");
+} 
+System.out.print(" ");
+
+ }
 * Write a method named "phoneKeypad" that takes a string parameter (str)
 * then it replaces each letter in (str) by a number that represnts it 
 * in a phone keypad as follows: 
