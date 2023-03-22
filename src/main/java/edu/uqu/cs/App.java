@@ -27,28 +27,31 @@ public class App{
 */
 
 public static void twisters(){
-    for(int i=1;i<20;i++)
-{
-    if(i%2==0||i%4==0||i%6==0){
-if(i%2==0)
-{
-    System.out.print("Tweetle");
-}
-if(i%4==0)
-{
-    System.out.print("Beetle");
-}
-if(i%6==0)
-{
-    System.out.print("Poodle");
-}else
-{
-    System.out.print(" "+i" ");
+    for(int i=1;i<=20;i++)
+    {
+      if(i%2==0||i%4==0||i%6==0){
+        if(i%2==0)
+        {
+            System.out.print("Tweetle");
+        }
+        if(i%4==0)
+        {
+            System.out.print("Beetle");
+        }
+        if(i%6==0)
+        {
+            System.out.print("Poodle");
+        }
+    }else{
+            System.out.print(i);
+    }
+
+    System.out.print(" "); 
 } 
-System.out.print(" ");
+}
 
  }
-* Write a method named "phoneKeypad" that takes a string parameter (str)
+/* Write a method named "phoneKeypad" that takes a string parameter (str)
 * then it replaces each letter in (str) by a number that represnts it 
 * in a phone keypad as follows: 
 * ABC = 2;
