@@ -68,12 +68,12 @@ System.out.print(" ");
  
     public static void main(String [] args) {
         
-
+        twisters();
         /* Write your code here */
      
-       //call method twisters()
-       //prompt user to enter a string 
-       //call method phoneKeypad(string)
+      // call method twisters()
+      // prompt user to enter a string 
+      // call method phoneKeypad(string)
 
 
     }
