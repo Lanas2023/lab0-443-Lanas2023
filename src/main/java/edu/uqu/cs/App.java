@@ -68,7 +68,65 @@ public static void twisters(){
 * Output: 2255464228626
 *
 */
+public static void phoneKeypad( String str ){
+    str = str.toUpperCase();
+    String wtn = "" ;
+    for( int i = 0 ; i<= str.length() -1 ; i++){
+        switch(str.charAt(i)){
+             case 'A' :
+            case 'B' :
+            case 'C' :
+            wtn += 2 ;
+            break;
+            case 'D' :
+            case 'E' :
+            case 'F' :
+            wtn += 3 ;
+            break;
+            case 'G' :
+            case 'H' :
+            case 'I' :
+            wtn +=4 ;
+            break;
+            case 'J' :
+            case 'K' :
+            case 'L' :
+            wtn +=5 ;
+            break;
+            case 'M' :
+            case 'N' :
+            case 'O' :
+            wtn +=6 ;
+            break;
+            case 'P' :
+            case 'Q' :
+            case 'R' :
+            case 'S' :
+            wtn +=7 ;
+            break;
+            case 'T' :
+            case 'U' :
+            case 'V' :
+            wtn +=8 ;
+            break;
+            case 'W' :
+            case 'X' :
+            case 'Y' :
+            case 'z' :
+            wtn +=9 ;
+            break;
+
+        }
+    }
+    System.out.println(wtn);
+}
+           
  
+    
+    
+
+ 
+
     public static void main(String [] args) {
         
         twisters();
